@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="inner"> 
+            <div class="box" data-aos="zoom-in">
+                <!-- here we are using aos animation cdn to add the zoom animation effect for this we need to add link and src tags and AOS init() in script tag-->
+                <button class="number" id="tweetMe">
+                    <img src="https://res.cloudinary.com/dwgpba5n2/image/upload/v1688615101/twitter-icon.png" class="tweetLogo" alt="tweet" title="Tweet Here"/> 
+                </button>
+                <div class="text">
+                    <i class="start-quote fa-solid fa-quote-left"></i>
+                    <p id="quotes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perspiciatis.</p>
+                    <p class="author" id="author">hello</p>
+                </div>
+                <button class="button" id="newQuote">
+                    <p class="newQ">new Quote</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
